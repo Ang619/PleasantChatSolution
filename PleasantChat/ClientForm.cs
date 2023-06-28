@@ -120,29 +120,7 @@ namespace PleasantChat
         //Draw green dot for online Users
         private void UsersOnlineListbox_DrawItem(object sender, DrawItemEventArgs e)
         {
-            //e.DrawBackground(); // Draw the background of the item
 
-            //if (e.Index >= 0)
-            //{
-            //    // Get the text of the item
-            //    string itemText = UsersOnlineListbox.Items[e.Index].ToString();
-
-            //    // Set the color for the dot (green)
-            //    Color dotColor = Color.Green;
-
-            //    // Draw the dot on the left side of the item
-            //    int dotSize = 10;
-            //    int dotX = e.Bounds.Left + 5;
-            //    int dotY = e.Bounds.Top + (e.Bounds.Height - dotSize) / 2;
-            //    e.Graphics.FillEllipse(new SolidBrush(dotColor), dotX, dotY, dotSize, dotSize);
-
-            //    // Draw the item's text next to the dot
-            //    int textX = dotX + dotSize + 5;
-            //    int textY = e.Bounds.Top + (e.Bounds.Height - e.Font.Height) / 2;
-            //    e.Graphics.DrawString(itemText, e.Font, new SolidBrush(e.ForeColor), textX, textY);
-            //}
-
-            //e.DrawFocusRectangle(); // Draw the focus rectangle if the item is selected
 
             e.DrawBackground(); // Draw the background of the item
 

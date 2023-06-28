@@ -58,7 +58,7 @@
             DragTextbox.Location = new Point(0, 6);
             DragTextbox.Name = "DragTextbox";
             DragTextbox.ReadOnly = true;
-            DragTextbox.Size = new Size(917, 20);
+            DragTextbox.Size = new Size(880, 20);
             DragTextbox.TabIndex = 40;
             DragTextbox.MouseDown += DragTextbox_MouseDown;
             // 
@@ -68,7 +68,7 @@
             ConnectionStatusLabel.BackColor = Color.Red;
             ConnectionStatusLabel.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             ConnectionStatusLabel.ForeColor = Color.WhiteSmoke;
-            ConnectionStatusLabel.Location = new Point(23, 119);
+            ConnectionStatusLabel.Location = new Point(10, 119);
             ConnectionStatusLabel.Name = "ConnectionStatusLabel";
             ConnectionStatusLabel.Size = new Size(146, 23);
             ConnectionStatusLabel.TabIndex = 39;
@@ -80,10 +80,10 @@
             NotificationTextbox.BorderStyle = BorderStyle.None;
             NotificationTextbox.Enabled = false;
             NotificationTextbox.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            NotificationTextbox.Location = new Point(1, 153);
+            NotificationTextbox.Location = new Point(10, 159);
             NotificationTextbox.Name = "NotificationTextbox";
             NotificationTextbox.ReadOnly = true;
-            NotificationTextbox.Size = new Size(400, 20);
+            NotificationTextbox.Size = new Size(601, 20);
             NotificationTextbox.TabIndex = 38;
             // 
             // BasicChatLabel
@@ -92,7 +92,7 @@
             BasicChatLabel.BackColor = SystemColors.ControlDarkDark;
             BasicChatLabel.Font = new Font("Lucida Sans Unicode", 24F, FontStyle.Regular, GraphicsUnit.Point);
             BasicChatLabel.ForeColor = Color.WhiteSmoke;
-            BasicChatLabel.Location = new Point(23, 23);
+            BasicChatLabel.Location = new Point(0, 24);
             BasicChatLabel.Name = "BasicChatLabel";
             BasicChatLabel.Size = new Size(334, 48);
             BasicChatLabel.TabIndex = 37;
@@ -104,7 +104,7 @@
             label2.BackColor = SystemColors.ControlDarkDark;
             label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.WhiteSmoke;
-            label2.Location = new Point(414, 51);
+            label2.Location = new Point(664, 57);
             label2.Name = "label2";
             label2.Size = new Size(35, 28);
             label2.TabIndex = 35;
@@ -115,7 +115,7 @@
             cmdExit.AutoSize = true;
             cmdExit.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
             cmdExit.ForeColor = Color.WhiteSmoke;
-            cmdExit.Location = new Point(351, 82);
+            cmdExit.Location = new Point(883, -18);
             cmdExit.Name = "cmdExit";
             cmdExit.Size = new Size(39, 50);
             cmdExit.TabIndex = 34;
@@ -125,7 +125,7 @@
             // cmdDisconnect
             // 
             cmdDisconnect.Enabled = false;
-            cmdDisconnect.Location = new Point(524, 124);
+            cmdDisconnect.Location = new Point(793, 131);
             cmdDisconnect.Name = "cmdDisconnect";
             cmdDisconnect.Size = new Size(94, 29);
             cmdDisconnect.TabIndex = 33;
@@ -136,19 +136,19 @@
             // MessageTextbox
             // 
             MessageTextbox.Enabled = false;
-            MessageTextbox.Location = new Point(23, 480);
+            MessageTextbox.Location = new Point(10, 485);
             MessageTextbox.Name = "MessageTextbox";
             MessageTextbox.PlaceholderText = "Enter...";
-            MessageTextbox.Size = new Size(367, 27);
+            MessageTextbox.Size = new Size(674, 27);
             MessageTextbox.TabIndex = 32;
             MessageTextbox.KeyPress += MessageTextbox_KeyPress;
             // 
             // CmdSend
             // 
             CmdSend.Enabled = false;
-            CmdSend.Location = new Point(396, 480);
+            CmdSend.Location = new Point(690, 483);
             CmdSend.Name = "CmdSend";
-            CmdSend.Size = new Size(88, 29);
+            CmdSend.Size = new Size(98, 29);
             CmdSend.TabIndex = 31;
             CmdSend.Text = "An alle Senden";
             CmdSend.UseVisualStyleBackColor = true;
@@ -159,15 +159,15 @@
             ChatListbox.BackColor = SystemColors.Window;
             ChatListbox.FormattingEnabled = true;
             ChatListbox.ItemHeight = 20;
-            ChatListbox.Location = new Point(1, 185);
+            ChatListbox.Location = new Point(10, 185);
             ChatListbox.Name = "ChatListbox";
-            ChatListbox.Size = new Size(521, 284);
+            ChatListbox.Size = new Size(778, 284);
             ChatListbox.TabIndex = 30;
             // 
             // CmdConnectt
             // 
             CmdConnectt.BackColor = Color.Gainsboro;
-            CmdConnectt.Location = new Point(524, 90);
+            CmdConnectt.Location = new Point(793, 96);
             CmdConnectt.Name = "CmdConnectt";
             CmdConnectt.Size = new Size(94, 29);
             CmdConnectt.TabIndex = 29;
@@ -177,7 +177,7 @@
             // 
             // IpTextbox
             // 
-            IpTextbox.Location = new Point(474, 57);
+            IpTextbox.Location = new Point(743, 63);
             IpTextbox.Name = "IpTextbox";
             IpTextbox.PlaceholderText = "z.B. 192.168.2.1";
             IpTextbox.Size = new Size(144, 27);
@@ -186,7 +186,7 @@
             // 
             // NameTextbox
             // 
-            NameTextbox.Location = new Point(474, 23);
+            NameTextbox.Location = new Point(743, 29);
             NameTextbox.Name = "NameTextbox";
             NameTextbox.PlaceholderText = "z.B. Felix";
             NameTextbox.Size = new Size(144, 27);
@@ -198,7 +198,7 @@
             NameLabel.AutoSize = true;
             NameLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             NameLabel.ForeColor = Color.WhiteSmoke;
-            NameLabel.Location = new Point(341, 24);
+            NameLabel.Location = new Point(591, 30);
             NameLabel.Name = "NameLabel";
             NameLabel.Size = new Size(108, 28);
             NameLabel.TabIndex = 42;
@@ -208,18 +208,18 @@
             // 
             SelectUserCombobox.DropDownStyle = ComboBoxStyle.DropDownList;
             SelectUserCombobox.FormattingEnabled = true;
-            SelectUserCombobox.Location = new Point(528, 441);
+            SelectUserCombobox.Location = new Point(794, 441);
             SelectUserCombobox.Name = "SelectUserCombobox";
-            SelectUserCombobox.Size = new Size(80, 28);
+            SelectUserCombobox.Size = new Size(93, 28);
             SelectUserCombobox.TabIndex = 45;
             SelectUserCombobox.SelectedIndexChanged += SelectUserCombobox_SelectedIndexChanged;
             // 
             // CmdSendToOne
             // 
             CmdSendToOne.Enabled = false;
-            CmdSendToOne.Location = new Point(490, 479);
+            CmdSendToOne.Location = new Point(794, 483);
             CmdSendToOne.Name = "CmdSendToOne";
-            CmdSendToOne.Size = new Size(80, 29);
+            CmdSendToOne.Size = new Size(93, 29);
             CmdSendToOne.TabIndex = 46;
             CmdSendToOne.Text = "Flüstern";
             CmdSendToOne.UseVisualStyleBackColor = true;
@@ -230,7 +230,7 @@
             OwnUserLabel.AutoSize = true;
             OwnUserLabel.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
             OwnUserLabel.ForeColor = Color.WhiteSmoke;
-            OwnUserLabel.Location = new Point(133, 82);
+            OwnUserLabel.Location = new Point(120, 72);
             OwnUserLabel.Name = "OwnUserLabel";
             OwnUserLabel.Size = new Size(0, 25);
             OwnUserLabel.TabIndex = 47;
@@ -240,7 +240,7 @@
             YouAreLabel.AutoSize = true;
             YouAreLabel.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
             YouAreLabel.ForeColor = Color.WhiteSmoke;
-            YouAreLabel.Location = new Point(27, 82);
+            YouAreLabel.Location = new Point(8, 74);
             YouAreLabel.Name = "YouAreLabel";
             YouAreLabel.Size = new Size(106, 25);
             YouAreLabel.TabIndex = 48;
@@ -252,9 +252,9 @@
             UsersOnlineListbox.DrawMode = DrawMode.OwnerDrawFixed;
             UsersOnlineListbox.FormattingEnabled = true;
             UsersOnlineListbox.ItemHeight = 20;
-            UsersOnlineListbox.Location = new Point(528, 185);
+            UsersOnlineListbox.Location = new Point(794, 185);
             UsersOnlineListbox.Name = "UsersOnlineListbox";
-            UsersOnlineListbox.Size = new Size(74, 244);
+            UsersOnlineListbox.Size = new Size(93, 244);
             UsersOnlineListbox.TabIndex = 49;
             UsersOnlineListbox.DrawItem += UsersOnlineListbox_DrawItem;
             // 
@@ -263,7 +263,7 @@
             UserOnlineListboxLabel.AutoSize = true;
             UserOnlineListboxLabel.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
             UserOnlineListboxLabel.ForeColor = Color.WhiteSmoke;
-            UserOnlineListboxLabel.Location = new Point(498, 157);
+            UserOnlineListboxLabel.Location = new Point(767, 157);
             UserOnlineListboxLabel.Name = "UserOnlineListboxLabel";
             UserOnlineListboxLabel.Size = new Size(120, 25);
             UserOnlineListboxLabel.TabIndex = 50;
@@ -274,7 +274,7 @@
             OwnName_Label.AutoSize = true;
             OwnName_Label.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             OwnName_Label.ForeColor = Color.WhiteSmoke;
-            OwnName_Label.Location = new Point(130, 84);
+            OwnName_Label.Location = new Point(117, 74);
             OwnName_Label.Name = "OwnName_Label";
             OwnName_Label.Size = new Size(53, 23);
             OwnName_Label.TabIndex = 51;
@@ -286,7 +286,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDarkDark;
-            ClientSize = new Size(619, 526);
+            ClientSize = new Size(914, 525);
             Controls.Add(OwnName_Label);
             Controls.Add(UserOnlineListboxLabel);
             Controls.Add(UsersOnlineListbox);

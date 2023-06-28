@@ -105,7 +105,7 @@
             // cmdStopServer
             // 
             cmdStopServer.Enabled = false;
-            cmdStopServer.Location = new Point(348, 156);
+            cmdStopServer.Location = new Point(670, 112);
             cmdStopServer.Name = "cmdStopServer";
             cmdStopServer.Size = new Size(125, 29);
             cmdStopServer.TabIndex = 33;
@@ -116,17 +116,17 @@
             // MessageTextbox
             // 
             MessageTextbox.Enabled = false;
-            MessageTextbox.Location = new Point(12, 588);
+            MessageTextbox.Location = new Point(24, 586);
             MessageTextbox.Name = "MessageTextbox";
             MessageTextbox.PlaceholderText = "Enter...";
-            MessageTextbox.Size = new Size(284, 27);
+            MessageTextbox.Size = new Size(638, 27);
             MessageTextbox.TabIndex = 32;
             MessageTextbox.KeyPress += MessageTextbox_KeyPress;
             // 
             // CmdSend
             // 
             CmdSend.Enabled = false;
-            CmdSend.Location = new Point(145, 551);
+            CmdSend.Location = new Point(668, 584);
             CmdSend.Name = "CmdSend";
             CmdSend.Size = new Size(82, 29);
             CmdSend.TabIndex = 31;
@@ -136,7 +136,7 @@
             // 
             // CmdRunServer
             // 
-            CmdRunServer.Location = new Point(348, 121);
+            CmdRunServer.Location = new Point(670, 77);
             CmdRunServer.Name = "CmdRunServer";
             CmdRunServer.Size = new Size(125, 29);
             CmdRunServer.TabIndex = 30;
@@ -151,13 +151,13 @@
             ChatListbox.ItemHeight = 20;
             ChatListbox.Location = new Point(24, 201);
             ChatListbox.Name = "ChatListbox";
-            ChatListbox.Size = new Size(327, 344);
+            ChatListbox.Size = new Size(821, 344);
             ChatListbox.TabIndex = 29;
             // 
             // IpTextbox
             // 
             IpTextbox.BackColor = Color.WhiteSmoke;
-            IpTextbox.Location = new Point(329, 79);
+            IpTextbox.Location = new Point(651, 35);
             IpTextbox.Name = "IpTextbox";
             IpTextbox.ReadOnly = true;
             IpTextbox.Size = new Size(144, 27);
@@ -169,7 +169,7 @@
             IpLabel.BackColor = SystemColors.ControlDarkDark;
             IpLabel.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             IpLabel.ForeColor = Color.WhiteSmoke;
-            IpLabel.Location = new Point(316, 75);
+            IpLabel.Location = new Point(610, 35);
             IpLabel.Name = "IpLabel";
             IpLabel.Size = new Size(35, 28);
             IpLabel.TabIndex = 25;
@@ -180,7 +180,7 @@
             Cmd_CloseApplication_Label.AutoSize = true;
             Cmd_CloseApplication_Label.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
             Cmd_CloseApplication_Label.ForeColor = Color.WhiteSmoke;
-            Cmd_CloseApplication_Label.Location = new Point(397, 24);
+            Cmd_CloseApplication_Label.Location = new Point(816, -9);
             Cmd_CloseApplication_Label.Name = "Cmd_CloseApplication_Label";
             Cmd_CloseApplication_Label.Size = new Size(39, 50);
             Cmd_CloseApplication_Label.TabIndex = 39;
@@ -190,17 +190,17 @@
             // SelectUserCombobox
             // 
             SelectUserCombobox.FormattingEnabled = true;
-            SelectUserCombobox.Location = new Point(243, 637);
+            SelectUserCombobox.Location = new Point(756, 554);
             SelectUserCombobox.Name = "SelectUserCombobox";
-            SelectUserCombobox.Size = new Size(151, 28);
+            SelectUserCombobox.Size = new Size(89, 28);
             SelectUserCombobox.TabIndex = 40;
             SelectUserCombobox.SelectedIndexChanged += SelectUserCombobox_SelectedIndexChanged;
             // 
             // CmdSendToSelected
             // 
-            CmdSendToSelected.Location = new Point(243, 553);
+            CmdSendToSelected.Location = new Point(756, 585);
             CmdSendToSelected.Name = "CmdSendToSelected";
-            CmdSendToSelected.Size = new Size(81, 29);
+            CmdSendToSelected.Size = new Size(89, 29);
             CmdSendToSelected.TabIndex = 41;
             CmdSendToSelected.Text = "An jmd Senden";
             CmdSendToSelected.UseVisualStyleBackColor = true;
@@ -211,7 +211,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDarkDark;
-            ClientSize = new Size(515, 710);
+            ClientSize = new Size(857, 631);
             Controls.Add(CmdSendToSelected);
             Controls.Add(SelectUserCombobox);
             Controls.Add(Cmd_CloseApplication_Label);
